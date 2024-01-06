@@ -7,6 +7,7 @@
 
 html,body{
     height: 100%;
+    background-color: #1C1C1C;
 }
 
 .clear{
@@ -14,9 +15,9 @@ html,body{
 }
 
 header{
-  background-color: white;
+  background-color: #1C1C1C;
   width: 100%;
-  height: 11%;
+  height: 10%;
   padding: 20px;
 
 }
@@ -48,7 +49,7 @@ header .logo_1{
 }
 
 .banner{
-  background-image: url(../images/still-life-gym-equipment.jpg);
+  background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-position: cover;
@@ -102,13 +103,14 @@ header .logo_1{
   text-align: center;
   margin-top: 30px;
   font-size: 17px;
+  color: white;
 }
 
 .mini-chamada-1, .mini-chamada-2, .mini-chamada-3, .mini-chamada-4 {
-  background-color: #00FF99;
+  background-color: #005eac;
   height: 80px;
   width: 300px;
-  border: 1px solid rgb(200,200,200);
+  border: 2px solid rgb(200,200,200);
 }
 
 .valores{
@@ -120,17 +122,129 @@ header .logo_1{
   position: relative;
   display: flex;
   justify-content: space-around;
-  top: 10px;
+  top: 20px;
   transform: translateX(0%);
-  max-width: 1300px; 
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .plano-1, .plano-2, .plano-3, .plano-4{
-  border: 1px solid rgb(200,200,200);
+  border: 2px solid rgb(200,200,200);
   padding: 10px;
-  background-color: #00FF99;
-  height: 220px;
+  color: white;
+  background-color: #005eac;
+  height: 225px;
   width: 300px;
   max-width: 300px;
+}
+
+.promocional{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1276px;
+  top: 60px;
+  color: white;
+}
+
+.chamada-4 h2{
+  background-color: #005eac;
+  width: 50%;
+  float: left;
+  height: 30vh;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.img-4{
+  background-image: url(../images/foto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 55%;
+  width: 50%;
+  float: right;
+  height: 30vh;
+  margin-bottom: 40px;
+}
+
+.chamada-5 h2{
+  background-color: #005eac;
+  width: 50%;
+  float: right;
+  height: 30vh;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.img-5{
+  background-image: url(../images/foto_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 75%;
+  width: 50%;
+  float: left;
+  height: 30vh;
+  margin-bottom: 40px;
+}
+
+.promocional-2{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1276px;
+  top: 60px;
+  color: white;
+}
+
+.chamada-6{
+  background-image: url(../images/foto_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1276px;
+  float: right;
+  height: 50vh;
+  margin-bottom: 40px;
+}
+
+.chamada-6 h2{
+  margin-left: 50px;
+  background-color: #005eac;
+  width: 40%;
+  max-width: 500px;
+  float: left;
+  height: 50vh;
+  padding: 25px;
+  opacity: 95%;
+}
+
+.chamada-7{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1276px;
+  height: 50vh;
+  margin-bottom: 40px;
+  padding: 0 50px;
+}
+
+.chamada-7 h2{
+  background-color: #005eac;
+  width: 42.5%;
+  float: left;
+  height: 30vh;
+  padding: 25px;
+  margin-right: 10px;
+}
+
+.img-7{
+  background-image: url(../images/foto_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1276px;
+  width: 55%;
+  float: right;
+  height: 30vh;
+
 }
